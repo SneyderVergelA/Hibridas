@@ -1,0 +1,44 @@
+.contenedor {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 0 1.25rem 2rem;
+}
+
+.encabezado {
+  background: #0d9488;
+  margin: 0 -1.25rem 2rem;
+  padding: 1.5rem 1.25rem;
+  border-radius: 0 0 16px 16px;
+}
+
+.encabezado h1 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+section h2 {
+  color: #0f766e;
+  font-size: 1.1rem;
+  margin-bottom: 0.8rem;
+}
+
+
+@media (max-width: 500px) {
+  .contenedor {
+    padding: 0 0.9rem 1.5rem;
+  }
+  .encabezado {
+    margin: 0 -0.9rem 1.5rem;
+  }
+  .encabezado h1 {
+    font-size: 1.15rem;
+  }
+}
